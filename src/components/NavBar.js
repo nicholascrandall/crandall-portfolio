@@ -25,7 +25,7 @@ export default class NavBar extends Component {
                 </Menu.Item>
 
                 <Menu.Item name='Resume' className='item'>
-                    <a href="https://docs.google.com/document/d/1xpltWX_nrpYMx1EI9nv3taxpWrPH3eAvLh67jFJ-MqQ/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a> 
+                    <a href="https://drive.google.com/file/d/1jfvdmUTJpjuWCc9R_qO9fPCZts6ywvbr/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a> 
                 </Menu.Item>
 
                 <Link to='/'>
