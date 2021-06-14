@@ -35,7 +35,7 @@ export default class Resume extends Component {
                     <article>
                         <h2>Last Gen Games</h2>
                         <a href="https://github.com/nicholascrandall/LastGenGames"><img src={LastGen} alt="Last Gen Games" className="projectPic" /></a>
-                        <p>Built with JavaScript, EJS, and CSS3. Backend built with express, node.js, and MongoDB.  Last Gen Games is a Full Stack mock online store with full CRUD where users can buy and sell retro video games.</p>
+                        <p className="end">Built with JavaScript, EJS, and CSS3. Backend built with express, node.js, and MongoDB.  Last Gen Games is a Full Stack mock online store with full CRUD where users can buy and sell retro video games.</p>
                     </article>
                 </span>
             </div>
