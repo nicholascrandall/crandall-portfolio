@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/crandall-portfolio/static/css/main.0e99fcce.chunk.css",
+    "main.js": "/crandall-portfolio/static/js/main.c6bc1fd7.chunk.js",
+    "main.js.map": "/crandall-portfolio/static/js/main.c6bc1fd7.chunk.js.map",
+    "runtime-main.js": "/crandall-portfolio/static/js/runtime-main.0d0fdee4.js",
+    "runtime-main.js.map": "/crandall-portfolio/static/js/runtime-main.0d0fdee4.js.map",
+    "static/js/2.b99dc98c.chunk.js": "/crandall-portfolio/static/js/2.b99dc98c.chunk.js",
+    "static/js/2.b99dc98c.chunk.js.map": "/crandall-portfolio/static/js/2.b99dc98c.chunk.js.map",
+    "static/js/3.725fe7f7.chunk.js": "/crandall-portfolio/static/js/3.725fe7f7.chunk.js",
+    "static/js/3.725fe7f7.chunk.js.map": "/crandall-portfolio/static/js/3.725fe7f7.chunk.js.map",
+    "index.html": "/crandall-portfolio/index.html",
+    "static/css/main.0e99fcce.chunk.css.map": "/crandall-portfolio/static/css/main.0e99fcce.chunk.css.map",
+    "static/js/2.b99dc98c.chunk.js.LICENSE.txt": "/crandall-portfolio/static/js/2.b99dc98c.chunk.js.LICENSE.txt",
+    "static/media/binghamton.86705c91.png": "/crandall-portfolio/static/media/binghamton.86705c91.png",
+    "static/media/checkers.ce6c3562.png": "/crandall-portfolio/static/media/checkers.ce6c3562.png",
+    "static/media/github.69ffd9cd.png": "/crandall-portfolio/static/media/github.69ffd9cd.png",
+    "static/media/insight.3f281718.png": "/crandall-portfolio/static/media/insight.3f281718.png",
+    "static/media/lastgen.ea5c99a6.png": "/crandall-portfolio/static/media/lastgen.ea5c99a6.png",
+    "static/media/linkedin.a2e5e6e5.png": "/crandall-portfolio/static/media/linkedin.a2e5e6e5.png",
+    "static/media/trailblazers.4af6376e.png": "/crandall-portfolio/static/media/trailblazers.4af6376e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d0fdee4.js",
+    "static/js/2.b99dc98c.chunk.js",
+    "static/css/main.0e99fcce.chunk.css",
+    "static/js/main.c6bc1fd7.chunk.js"
+  ]
+}
