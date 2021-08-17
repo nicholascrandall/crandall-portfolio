@@ -42,7 +42,7 @@
   display: flex;
   justify-content: center;
   background-color: #ec7404;
-  height: 4vh;
+  height: 50px;
   color: white;
 }
 
@@ -131,8 +131,9 @@ ul {
 
 .skills {
   width: 8em;
+  padding-bottom: 20vh;
 }
 
 .end {
-  padding-bottom: 15vh;
+  padding-bottom: 20vh;
 }
