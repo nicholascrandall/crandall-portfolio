@@ -44,6 +44,7 @@ export default class About extends Component {
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
+                        <li>LUA</li>
                         <li>JSON</li>
                         <li>SQL</li>
                         <li>React</li>

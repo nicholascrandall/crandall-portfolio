@@ -3,6 +3,7 @@ import Checkers from '../images/checkers.png'
 import Trailblazers from '../images/trailblazers.png'
 import Insight from '../images/insight.png'
 import LastGen from '../images/lastgen.png'
+import BetterTab from '../images/BTlogo.png'
 
 export default class Resume extends Component {
     constructor(props) {
@@ -17,6 +18,11 @@ export default class Resume extends Component {
             <div>
                 <h1>Projects</h1>
                 <span>
+                    <article>
+                        <h2>BetterTab</h2>
+                        <a href="https://www.curseforge.com/wow/addons/bettertab" target="_blank" rel="noreferrer"><img src={BetterTab} alt="BetterTab" className="projectPic" /></a>
+                        <p>Lightweight TBC Classic Addon (World of Warcraft) to swap tab targetting functionality to Nearest Enemy Player while in a Battleground or Arena.</p>
+                    </article>
                     <article>
                         <h2>Checkers</h2>
                         <a href="https://github.com/nicholascrandall/checkers" target="_blank" rel="noreferrer"><img src={Checkers} alt="checkers" className="projectPic" /></a>
