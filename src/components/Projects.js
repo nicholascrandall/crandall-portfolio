@@ -4,6 +4,7 @@ import Trailblazers from '../images/trailblazers.png'
 import Insight from '../images/insight.png'
 import LastGen from '../images/lastgen.png'
 import BetterTab from '../images/BTlogo.png'
+import XivC from '../images/XIV.png'
 
 export default class Resume extends Component {
     constructor(props) {
@@ -18,6 +19,11 @@ export default class Resume extends Component {
             <div className='wrapper'>
                 <h1>Projects</h1>
                 <span>
+                    <article>
+                        <h2>XIV Collect</h2>
+                        <a href="https://github.com/nicholascrandall/xivcollect" target="_blank" rel="noreferrer"><img src={XivC} alt="XIV Collect" className="projectPic" /></a>
+                        <p>React.js front-end for XIV-API. Search for any item from Final Fantasy XIV and bring up important information such as stats and rarity.</p>
+                    </article>
                     <article>
                         <h2>BetterTab</h2>
                         <a href="https://www.curseforge.com/wow/addons/bettertab" target="_blank" rel="noreferrer"><img src={BetterTab} alt="BetterTab" className="projectPic" /></a>
