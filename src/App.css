@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: Helvetica;
+  height: 100vh;
 }
 
 .App-logo {
@@ -95,19 +96,6 @@ p {
   font-size: 18px;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 20px;
-  background: grey;
-}
-
-.footer h2 {
-  color: white;
-  margin: -25px auto 5px auto;
-}
-
 .centered {
   margin-left:  auto;
   margin-right: auto;
@@ -140,4 +128,27 @@ ul {
   text-align: left;
   margin: 0 auto;
   padding-left: 24px;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  min-height: calc(100vh - 180px);
+}
+
+.footer {
+  height: 80px;
+  background: grey;
+}
+
+.footer h2 {
+  color: white;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.end {
+  height: 80px;
 }

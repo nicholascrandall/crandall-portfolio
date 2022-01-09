@@ -12,7 +12,7 @@ export default class About extends Component {
 
     render() {
         return (
-            <div>
+            <div className='wrapper'>
                 <h1>About Me</h1>
                 <h2>Full Stack Software Engineer</h2>
                 <p>I am a full stack software engineer with a background in psychology, who is passionate about tech. My strengths in understanding how others think, combined with my out-of-the-box style of problem-solving, allow me to create software which brings enjoyment to the user. When working within a team to accomplish a common goal, my strongest assets are my patience and empathy.
@@ -54,7 +54,6 @@ export default class About extends Component {
                         <li>Express</li>
                     </ul>
                 </div>
-
             </div>
         )
     }
