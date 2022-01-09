@@ -24,20 +24,14 @@ class App extends Component {
           <Route path="/projects">
             <NavBar />
             <Projects />
-            <footer>
-              <Footer />
-            </footer>
-            
+            <Footer />
           </Route>
 
           {/* home page */}
           <Route path="/">
             <NavBar />
             <About />
-            <footer>
-              <Footer />
-            </footer>
-            
+            <Footer />
           </Route>
 
         </Switch>

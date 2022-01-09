@@ -38,8 +38,8 @@ export default class About extends Component {
                 </div>
 
                 <h2>Skills</h2>
-                <div className="centered skills">
-                    <ul>
+                <div>
+                    <ul className="skills">
                         <li>Python</li>
                         <li>HTML</li>
                         <li>CSS</li>
