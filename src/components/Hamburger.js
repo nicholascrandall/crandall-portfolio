@@ -1,8 +1,4 @@
 import { Component } from 'react'
-import { Menu } from 'semantic-ui-react'
-import GitHub from '../images/github.png'
-import LinkedIn from '../images/linkedin.png'
-import { Link } from 'react-router-dom'
 
 export default class Hamburger extends Component {
     constructor(props) {
@@ -14,18 +10,24 @@ export default class Hamburger extends Component {
 
     render() {
         return (
-            <button id="hamburger-menu">
-            <nav id="sidebar-menu">
-              <h3>Menu</h3>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Store</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </nav>
-          </button>
+            <div id="hamburger-menu">
+                <div class="h-container">
+                <input type="checkbox" id="nav-menu1"/>
+                <label id="nav-icon1" for="nav-menu1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                </div>
+                
+                <ul class="hamburger-items">
+                    <li><a href="https://www.linkedin.com/in/nicholascrandall1" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                    <li><a href="https://drive.google.com/file/d/1eKkkDrtWTDgz-dAn6OSD7cE65nfEgL2S/view" target="_blank" rel="noreferrer">Resume</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                </ul>
+                <h1>Nicholas Crandall</h1>
+            </div>
         )
     }
 }
