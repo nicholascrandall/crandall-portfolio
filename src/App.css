@@ -153,10 +153,18 @@ article {
   height: 80px;
 }
 
- /* Mobile Rendering 700px and below */
- @media only screen and (max-width: 700px) {
-  .nav-menu {
-    color: blue;
+#hamburger-menu {
+  display: none;
+}
+
+ /* Mobile Rendering below 750px */
+ @media only screen and (max-width: 749px) {
+  #main-menu {
+    display: none;
+  }
+
+  #hamburger-menu {
+    display: inline;
   }
  }
 

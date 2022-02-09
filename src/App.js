@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Projects from './components/Projects'
 import About from './components/About'
 import Footer from './components/Footer'
+import Hamburger from './components/Hamburger'
 
 class App extends Component {
   constructor(props) {
@@ -23,6 +24,7 @@ class App extends Component {
           {/* projects */}
           <Route path="/projects">
             <NavBar />
+            <Hamburger />
             <Projects />
             <Footer />
           </Route>
@@ -30,6 +32,7 @@ class App extends Component {
           {/* home page */}
           <Route path="/">
             <NavBar />
+            <Hamburger />
             <About />
             <Footer />
           </Route>

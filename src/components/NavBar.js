@@ -14,7 +14,7 @@ export default class NavBar extends Component {
 
     render() {
         return (
-            <>
+            <div id="main-menu">
             <Menu 
                 fixed='top'
                 inverted={true}
@@ -45,7 +45,7 @@ export default class NavBar extends Component {
                 </Menu.Item>
 
             </Menu>
-            </>
+            </div>
         )
     }
 }
