@@ -165,6 +165,7 @@ article {
 
 .hamburger-items li {
   list-style: none;
+  margin-top: -50px;
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
@@ -176,16 +177,21 @@ article {
 
 #nav-icon1 span {
   display: block;
-  margin: 8px 8px 0 8px;
+  margin: 8px;
   height: 4px;
   width: 45px;
   background: white;
-  border-radius: 9px;
-  cursor:pointer; 
+  border-radius: 15px; 
   -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
+}
+
+#nav-icon1 div {
+  cursor:pointer;
+  width: 60px;
+  height: 40px;
 }
 
 #nav-menu1:checked ~ #nav-icon1 span:nth-child(1){
@@ -208,6 +214,32 @@ input[type="checkbox"]{
   display:none;
 }
 
+.nc {
+  margin-top: -65px;
+  width: 100px;
+  margin-left: 100px;
+  font-size: 15px;
+}
+
+.nc h1 {
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+.hamburger-items {
+  color: white;
+  text-decoration: underline;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hamLogo {
+  max-width: 50px;
+  margin-top: -15px;
+}
+
  /* Mobile Rendering below 750px */
  @media only screen and (max-width: 749px) {
   #main-menu {
@@ -217,6 +249,19 @@ input[type="checkbox"]{
   #hamburger-menu {
     display: block;
   }
+
+  p {
+    max-width: 100%;
+  }
+
+  .projectPic {
+    max-width: 100%;
+  }
+
+  .footer {
+    height: 105px;
+  }
+
  }
 
  
